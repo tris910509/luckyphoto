@@ -23,27 +23,57 @@
 </head>
 
 <body id="home">
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas__menu__overlay"></div>
+    <div class="offcanvas__menu__wrapper">
+        <div class="canvas__close">
+            <span class="fa fa-times-circle-o"></span>
+        </div>
+        <div class="offcanvas__logo">
+            <a href="#"><img src="img/logo TP.png" alt=""></a>
+        </div>
+        <nav class="offcanvas__menu mobile-menu">
+            <ul>
+                
+                            <li ><a href="#home">Home</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#order">Order</a></li>
+                            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__info">
+            <ul>
+                <li><span class="icon_phone"></span> (022) 6041155</li>
+                <li><span class="fa fa-envelope"></span> luckyphoto41@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-9">
-                    <nav class="header__menu fixed-top"style="background-color: #120851;">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3">
-                            
-                        <img src="img/logo TP.png" alt="">
+                <nav class="header__menu fixed-top"style="background-color: #120851;">
+                    <div class="col-lg-9 col-md-9">
+                        <div class="container">
+                            <div class="row">
+                                <ul><a href="./index.html"><img src="img/logo TP.png" alt=""></a>
+                                    <li ><a href="#home">Home</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#order">Order</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#order">Order</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                        </div>
-                        <br>
-                    </nav>
-                </div>
+                    </div><br>
+                 </nav>
             </div>
             <div class="canvas__open">
                 <span class="fa fa-bars"></span>
@@ -61,7 +91,7 @@
                         <div class="col-lg-8">
                             <div class="hero__text">
                                 <h2>Selamat datang<br /> pada halaman Sistem Informasi Lucky Photo</h2>
-                                <a href="/id.contact" class="primary-btn">Contact</a>
+                                <a href="#contact"  class="primary-btn">Contact</a>
                             </div>
                         </div>
                         <div class="col-lg-4">
